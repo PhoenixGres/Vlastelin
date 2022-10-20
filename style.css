@@ -1,0 +1,119 @@
+
+
+html {
+	background: url(/img/FONNN.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+
+header {
+text-align: center;
+
+
+}
+h1{
+	color: rgb(127, 68, 68);
+}
+.nav{
+position: absolute;
+
+}
+div {
+	display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-left: auto;
+  text-align:center;
+}
+
+
+
+
+body {
+  background-image:
+  -o-background-size: 100%;
+  scroll-behavior: smooth;
+}
+
+.title {
+  width: 80%;
+  margin-left: auto;
+}
+
+aside {
+  position: fixed;
+  top: 0;
+  padding-left: 20px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-left: auto;
+  text-align:center;
+}
+
+img {
+  width: 50%;
+  height: ;
+	border-radius: 20%;
+
+}
+.wrapper p {
+  text-align: unset;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  list-style: none;
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin: 5px 0 5px 0;
+}
+
+li a {
+  text-decoration: none;
+  color: rgb(127, 68, 68);
+  transition: 0.3s;
+  position: relative;
+}
+h2 {
+	color: rgb(127, 68, 68);
+}
+
+li a:hover {
+  color: green;
+}
+
+li a:after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 1px;
+  width: 0;
+  background-color: green;
+  transition: 0.3s;
+}
+
+li a:hover:after {
+  width: 100%;
+}
+a{
+	color: rgb(127, 68, 68);
+}
